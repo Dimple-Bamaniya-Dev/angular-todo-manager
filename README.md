@@ -1,7 +1,10 @@
 # ✅ Angular To-Do Manager
 
-A simple and clean **To-Do Manager application built using Angular (Standalone Components)**.  
-This project demonstrates core Angular concepts such as data binding, event handling, conditional rendering, and component-based architecture — without using any backend or external libraries.
+A simple and clean **Angular To-Do Manager application** built using  
+**Angular Standalone Components (Angular 15+)**.
+
+This project demonstrates core Angular concepts with a modern UI and
+is ideal for beginners and portfolio projects.
 
 ---
 
@@ -11,34 +14,36 @@ The Angular To-Do Manager allows users to:
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
-- View an empty state when no tasks are available
+- Manage daily tasks efficiently
 
-This is a **frontend-only Angular project**, ideal for beginners and for showcasing Angular fundamentals on GitHub.
+This is a **frontend-only Angular project** with no backend or database.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Angular (15+)**
-- **TypeScript**
-- **HTML5**
-- **CSS3**
-- **Angular Standalone Components**
-- **FormsModule (ngModel)**
+- Angular (15+)
+- TypeScript
+- HTML5
+- CSS3
+- Angular Standalone Components
+- FormsModule (`ngModel`)
 
 ---
 
 ## ✨ Features
 
+- Add, complete, and delete tasks
+- Two-way data binding
 - Clean and responsive UI
-- Two-way data binding using `ngModel`
-- Conditional rendering using `*ngIf`
-- List rendering using `*ngFor`
-- Component-based architecture
-- Keyboard support (press Enter to add task)
-- No external UI frameworks (pure Angular)
+- Keyboard support (Enter key)
+- No external UI libraries
 
 ---
 
-## 📁 Project Structure
+## 📸 Project Screenshot
+
+<img src="src/assets/images/todo-app.png" alt="Angular To-Do Manager Screenshot" width="450"/>
+
+---
 
