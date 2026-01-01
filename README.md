@@ -43,7 +43,9 @@ This is a **frontend-only Angular project** with no backend or database.
 
 ## 📸 Project Screenshot
 
-<img src="src/assets/images/todo-app.png" alt="Angular To-Do Manager Screenshot" width="450"/>
+<img src="src/assets/images/todo-add.png" alt="Angular To-Do Manager Screenshot" width="450"/>
+<img src="src/assets/images/todo-complete.png" alt="Angular To-Do Manager Screenshot" width="450"/>
+
 
 ---
 
