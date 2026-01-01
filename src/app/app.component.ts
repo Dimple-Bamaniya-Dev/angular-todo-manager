@@ -1,12 +1,35 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+interface Todo {
+  title: string;
+  completed: boolean;
+}
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [CommonModule, FormsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-todo-manager';
+  newTodo = '';
+  todos: Todo[] = [];
+
+  addTodo() {
+    if (this.newTodo.trim()) {
+      this.todos.push({ title: this.newTodo, completed: false });
+      this.newTodo = '';
+    }
+  }
+
+  toggleTodo(todo: Todo) {
+    todo.completed = !todo.completed;
+  }
+
+  deleteTodo(index: number) {
+    this.todos.splice(index, 1);
+  }
 }
